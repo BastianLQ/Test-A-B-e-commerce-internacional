@@ -6,21 +6,36 @@ __Proyecto de análisis a la plataforma de delivery Instacart, análisis explora
 _Fragmentos del notebook, para ver proyecto completo hacer click [aquí](https://portfoliodabastianlopez.on.drv.tw/Portafolio/An%C3%A1lisis%20Instacart.html)_
 
 ## Descripción del Proyecto
-Este proyecto tiene como objetivo analizar datos de Instacart para extraer información valiosa sobre el comportamiento de los clientes y las tendencias de los productos. Utilizando [cinco datasets](https://drive.google.com/drive/folders/11ludpzThvf-xB6LfZW_xzCBK1Z91M_KA?usp=sharing) proporcionados por Instacart, se llevó a cabo un proceso de limpieza, análisis y visualización de datos para identificar patrones y tendencias clave.
+Se ha recibido una tarea analítica de una tienda en línea internacional. no se ha conseguido completarla: se lanzó una prueba A/B y luego se abandonó. Solo se dejaron las especificaciones técnicas y los resultados de las pruebas.
   
 ## Herramientas Utilizadas
 - __Lenguaje de Programación:__ Python.
 - __Entorno de Desarrollo:__ Jupyter Notebook.
-- __Bibliotecas:__ Pandas, Matplotlib.
+- __Bibliotecas:__ Pandas, Numpy, Math, Seaborn, Matplotlib, Plotly, Stats, Datetime.
 
 ## Proceso del Proyecto
-- __Descripción de los datos:__ Los datos fueron extraídos de [cinco datasets](https://drive.google.com/drive/folders/11ludpzThvf-xB6LfZW_xzCBK1Z91M_KA?usp=sharing) proporcionados por Instacart _(los datasets están en Drive porque superan el peso máximo permitido de GitHub)_, en esta fase, también, se les da una revisión superficial y se corrigen problemas de importación si es que llegasen a surgir.
-- __Preprocesamiento de los datos:__ Se realizaron varias operaciones de limpieza, incluyendo manejo de valores nulos, normalización y formateo de datos.
-- __Análisis Exploratorio de Datos (EDA):__ Esta fase se centró en analizar la integridad de los datos y rescatar insights valiosos. Utilizando pandas se exploraron los datos para obtener una comprensión inicial, intermedia y avanzada, y con matplotlib, se generaron visualizaciones para ilustrar los hallazgos clave del análisis.
-- __Resultados:__ Se identificaron patrones y tendencias en los datos, como los productos más vendidos y reordenados, y el comportamiento general de los clientes en términos de cantidad de artículos por pedido.
+Este informe estará dividido en cuatro partes, cada una de ellas tendrá diferentos objetivos:
+
+__Preanálisis:__ Etapa en la cual se cargan los datos y se optimizan en caso de ser necesario, se trabajan los valores duplicados y ausentes, y finalmente, se modifican los datos para facilitar el posterior análisis.
+Describe los objetivos del estudio.
+- ¿Es necesario convertir los tipos?
+- ¿Hay valores ausentes o duplicados? Si es así, ¿cómo se caracterizarían?
+
+__Análisis exploratorio de datos:__ En esta fase se estudiarán las diferentes variables y la calidad de los datos para el desarrollo de una prueba A/B.
+- Estudiar la conversión en las diferentes etapas del embudo.
+- ¿El número de eventos por usuario está distribuido equitativamente entre las muestras?
+- ¿Hay usuarios que están presentes en ambas muestras?
+- ¿Cómo se distribuye el número de eventos entre los días?
+- ¿Hay alguna peculiaridad en los datos que hay que tener en cuenta antes de iniciar la prueba A/B?
+
+__Evaluar los resultados de la prueba A/B:__ Una vez determinada la calidad de los datos, se realizan las pruebas estadísticas para determinar si se cumplen los objetivos.
+- Utilizar una prueba z para comprobar la diferencia estadística entre las proporciones.
+- ¿Qué se puede concluir sobre los resultados de la prueba A/B?
+
+__Conclusiones:__ Se presentarán las conclusiones con respecto a la etapa EDA y los resultados de la prueba A/B.
 
 ## Relevancia de los descubrimientos
-El análisis de datos de Instacart reveló patrones importantes en el comportamiento de compra de los clientes. Estos insights pueden ser utilizados para optimizar las estrategias de marketing, gestión de inventarios y mejorar la experiencia del cliente.
+El análisis del del test A/B reveló algunos patrones importantes de comportamiento, sin embargo, la calidad de los descubrimientos es proporcional a la calidad de la información y, en este proyecto, los descubrimientos más importantes tienen que ver con eso.
 
 ## Ejecuta el proyecto [aquí](https://portfoliodabastianlopez.on.drv.tw/Portafolio/An%C3%A1lisis%20Instacart.html)
 Para ver el diccionario de datos, el desarrollo completo en código, todos los gráficos y las conclusiones, haga click en el enlace de arriba.
