@@ -1,5 +1,5 @@
 # Test-A-B-e-commerce-internacional
-__Proyecto de análisis a la plataforma de delivery Instacart, análisis exploratiorio y visualización de datos__
+__Análisis de embudo de ventas y test A/B__
 
 <image src="https://github.com/BastianLQ/Test-A-B-e-commerce-internacional/blob/main/N14AB.jpg" alt="Collage de gráficos">
 
