@@ -3,7 +3,7 @@ __Proyecto de análisis a la plataforma de delivery Instacart, análisis explora
 
 <image src="https://github.com/BastianLQ/Test-A-B-e-commerce-internacional/blob/main/N14AB.jpg" alt="Collage de gráficos">
 
-_Fragmentos del notebook, para ver proyecto completo hacer click [aquí](https://portfoliodabastianlopez.on.drv.tw/Portafolio/An%C3%A1lisis%20Instacart.html)_
+_Fragmentos del notebook, para ver proyecto completo hacer click [aquí](https://portfoliodabastianlopez.on.drv.tw/Portafolio/P11.html)_
 
 ## Descripción del Proyecto
 Se ha recibido una tarea analítica de una tienda en línea internacional. no se ha conseguido completarla: se lanzó una prueba A/B y luego se abandonó. Solo se dejaron las especificaciones técnicas y los resultados de las pruebas.
@@ -37,5 +37,5 @@ __Conclusiones:__ Se presentarán las conclusiones con respecto a la etapa EDA y
 ## Relevancia de los descubrimientos
 El análisis del del test A/B reveló algunos patrones importantes de comportamiento, sin embargo, la calidad de los descubrimientos es proporcional a la calidad de la información y, en este proyecto, los descubrimientos más importantes tienen que ver con eso.
 
-## Ejecuta el proyecto [aquí](https://portfoliodabastianlopez.on.drv.tw/Portafolio/An%C3%A1lisis%20Instacart.html)
+## Ejecuta el proyecto [aquí](https://portfoliodabastianlopez.on.drv.tw/Portafolio/P11.html)
 Para ver el diccionario de datos, el desarrollo completo en código, todos los gráficos y las conclusiones, haga click en el enlace de arriba.
